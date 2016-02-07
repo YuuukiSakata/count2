@@ -14,6 +14,11 @@
 		06FBAA431C633F480037BCCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06FBAA411C633F480037BCCC /* LaunchScreen.storyboard */; };
 		06FBAA4E1C633F480037BCCC /* count2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FBAA4D1C633F480037BCCC /* count2Tests.swift */; };
 		06FBAA591C633F480037BCCC /* count2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FBAA581C633F480037BCCC /* count2UITests.swift */; };
+		06FBAA671C633F9A0037BCCC /* haikei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06FBAA661C633F9A0037BCCC /* haikei.jpg */; };
+		06FBAA691C6343CB0037BCCC /* haikei3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06FBAA681C6343CB0037BCCC /* haikei3.jpg */; };
+		06FBAAE31C65B6720037BCCC /* golf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06FBAAE21C65B6720037BCCC /* golf.jpg */; };
+		06FBAAE51C65B67C0037BCCC /* tennis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06FBAAE41C65B67C0037BCCC /* tennis.jpg */; };
+		06FBAAE71C65B6870037BCCC /* baseball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 06FBAAE61C65B6870037BCCC /* baseball.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		06FBAA541C633F480037BCCC /* count2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = count2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06FBAA581C633F480037BCCC /* count2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = count2UITests.swift; sourceTree = "<group>"; };
 		06FBAA5A1C633F480037BCCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06FBAA661C633F9A0037BCCC /* haikei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haikei.jpg; sourceTree = "<group>"; };
+		06FBAA681C6343CB0037BCCC /* haikei3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haikei3.jpg; sourceTree = "<group>"; };
+		06FBAAE21C65B6720037BCCC /* golf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = golf.jpg; sourceTree = "<group>"; };
+		06FBAAE41C65B67C0037BCCC /* tennis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tennis.jpg; sourceTree = "<group>"; };
+		06FBAAE61C65B6870037BCCC /* baseball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = baseball.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +107,14 @@
 		06FBAA371C633F480037BCCC /* count2 */ = {
 			isa = PBXGroup;
 			children = (
+				06FBAA681C6343CB0037BCCC /* haikei3.jpg */,
+				06FBAA661C633F9A0037BCCC /* haikei.jpg */,
 				06FBAA381C633F480037BCCC /* AppDelegate.swift */,
 				06FBAA3A1C633F480037BCCC /* ViewController.swift */,
 				06FBAA3C1C633F480037BCCC /* Main.storyboard */,
+				06FBAAE61C65B6870037BCCC /* baseball.jpg */,
+				06FBAAE41C65B67C0037BCCC /* tennis.jpg */,
+				06FBAAE21C65B6720037BCCC /* golf.jpg */,
 				06FBAA3F1C633F480037BCCC /* Assets.xcassets */,
 				06FBAA411C633F480037BCCC /* LaunchScreen.storyboard */,
 				06FBAA441C633F480037BCCC /* Info.plist */,
@@ -229,9 +244,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06FBAA691C6343CB0037BCCC /* haikei3.jpg in Resources */,
+				06FBAAE71C65B6870037BCCC /* baseball.jpg in Resources */,
+				06FBAAE31C65B6720037BCCC /* golf.jpg in Resources */,
+				06FBAA671C633F9A0037BCCC /* haikei.jpg in Resources */,
 				06FBAA431C633F480037BCCC /* LaunchScreen.storyboard in Resources */,
 				06FBAA401C633F480037BCCC /* Assets.xcassets in Resources */,
 				06FBAA3E1C633F480037BCCC /* Main.storyboard in Resources */,
+				06FBAAE51C65B67C0037BCCC /* tennis.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +502,7 @@
 				06FBAA5F1C633F480037BCCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06FBAA601C633F480037BCCC /* Build configuration list for PBXNativeTarget "count2Tests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +511,7 @@
 				06FBAA621C633F480037BCCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06FBAA631C633F480037BCCC /* Build configuration list for PBXNativeTarget "count2UITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +520,7 @@
 				06FBAA651C633F480037BCCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
