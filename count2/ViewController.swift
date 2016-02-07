@@ -28,7 +28,9 @@ class ViewController: UIViewController {
     var myArray: [UIImage]!
     
     myArray = [UIImage(named: "golf.jpg")!,
+    
     UIImage(named: "tennis.jpg")!,
+    
     UIImage(named: "baseball.jpg")!
     ]
     
