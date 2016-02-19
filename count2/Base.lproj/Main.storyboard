@@ -36,6 +36,7 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="clickbutton" destination="BYZ-38-t0r" eventType="touchUpInside" id="qix-hp-LFz"/>
                                     <action selector="plus" destination="BYZ-38-t0r" eventType="touchUpInside" id="bbA-cV-SdC"/>
                                 </connections>
                             </button>
@@ -55,9 +56,19 @@
                                     <color key="titleColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="clickbutton" destination="BYZ-38-t0r" eventType="touchUpInside" id="nE9-8r-U7J"/>
                                     <action selector="minus" destination="BYZ-38-t0r" eventType="touchUpInside" id="FWe-hq-3Hg"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="baseball.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="XGt-x4-qS5">
+                                <rect key="frame" x="47" y="234" width="45" height="45"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="golf.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="f1Z-bc-b5Q">
+                                <rect key="frame" x="47" y="234" width="45" height="45"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tennis.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="KF0-qz-BP1">
+                                <rect key="frame" x="47" y="234" width="45" height="45"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -72,7 +83,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="baseball.jpg" width="558" height="560"/>
+        <image name="golf.jpg" width="1024" height="1024"/>
         <image name="haikei.jpg" width="1431" height="1234"/>
         <image name="haikei3.jpg" width="800" height="800"/>
+        <image name="tennis.jpg" width="235" height="235"/>
     </resources>
 </document>

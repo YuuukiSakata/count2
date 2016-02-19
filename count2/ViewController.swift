@@ -23,16 +23,7 @@ class ViewController: UIViewController {
     
 }
 
-    @IBOutlet var myImageView: UIImageView!
-    
-    var myArray: [UIImage]!
-    
-    myArray = [UIImage(named: "golf.jpg")!,
-    
-    UIImage(named: "tennis.jpg")!,
-    
-    UIImage(named: "baseball.jpg")!
-    ]
+    @IBOutlet var ballImageView: UIImageView!
     
     @IBAction func plus(){
         number = number + 1
@@ -40,17 +31,16 @@ class ViewController: UIViewController {
     }
     
     @IBAction func minus(){
-        number = number -1
+        number = number - 1
         label.text = String(number)
     }
 
-
     if number == 43 {
-        myImageView.image = myArray[1]
+        ballImageView.image = UIImage(named: golf.jpg)
     }else if number == 65{
-        myImageView.image = myArray[2]
-    }else if number == 75{
-        myImageView.image = myArray[3]
+        ballImageView.image = UIImage(named: baseball.jpg)
+    }else number == 75{
+        ballImageView.image = UIImage(named: tennis.jpg)
+        }
     }
-    
 }
